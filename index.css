@@ -7,7 +7,7 @@ body{
 
 /* Start header*/
 header{ 
-    background-image: url(images/banner.jpg);
+    background-image: url(banner.jpg);
     height:          450px;
     background-size: cover;
     width:           100%;}
