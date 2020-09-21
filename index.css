@@ -1,0 +1,190 @@
+*{
+  box-sizing: border-box;}
+
+body{
+  margin:  0px;
+  padding: 0px;}
+
+/* Start header*/
+header{ 
+    background-image: url(images/banner.jpg);
+    height:          450px;
+    background-size: cover;
+    width:           100%;}
+
+
+li{
+    list-style: none;
+    display:    inline-block;
+    margin-left: 55px;}
+
+a{
+    text-decoration: none;
+    color:          #fff;}
+
+
+.logo{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size:   30px;}
+
+
+.welcome p ,.welcome2 p{
+    font-size: 55px;
+    color:     #fff;
+    font-family: Poiret One;
+    text-align:  center;
+    margin-top:  100px;}
+
+.welcome2 p {
+    font-size: 20px;
+    margin-top: 20px;}
+
+
+/* End header*/
+
+
+
+  /* Start Section 2 */
+
+
+.sec2{height: 450px;}
+
+.con1{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;}
+
+
+.con{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    padding: 2px}
+
+ .sec2 .con div {
+    width:      33.3%;
+    float:      left;
+    margin-top: 50px;
+    border-right: 2px solid #ddd;
+    padding:     22px;}
+
+
+.con div h3{color: blueviolet}
+
+.con div .de {color:#ceab9cf0}
+
+.con div button{
+    border:  0px;
+    padding: 10px;
+    color:   white;
+    border-radius: 4px;
+ background-color: #5385c1;}
+
+.con div button a{text-decoration: none}
+
+/* End Section 2 */
+
+
+/* Start Section 3 */
+
+.sec3{
+    background-color:#5385c1;
+    height: 600px;
+    text-align: center;
+    color: white;
+    font-size: 20px}
+
+.sh3{
+    text-align: center;
+    color:       white;
+    font-family: Quicksand;
+    margin-top: 70px;
+    font-size:  40px;
+    font-weight: 100}
+
+.sec3  .des{
+    text-align: center;
+    color:      white;
+    font-family: Quicksand;
+    font-size:   20px}
+
+
+.team{
+    float: left;
+    margin-left: 32px;
+    border: 1px solid #7ea4d1;
+    height: 300px;
+    padding: 34px;}
+
+.team img { 
+border-radius: 50%}
+
+
+.team .work{
+    font-size: 15px;
+    color: #7ea4d1}
+
+
+/* End Section 3 */
+
+
+/* Start Section 4 */
+
+
+sec4{height: 450px}
+
+.bannr2{
+    text-align: center;
+    color:      #5385c1;
+    font-family: Poiret One;
+    letter-spacing: 4px;
+    margin-top: 125px}
+
+
+
+.det{
+    text-align: center;
+    color:#ceab9cf0;
+    font-size: 25px;
+}
+
+
+.im1{float: left;
+    height: 400px;
+    padding: 20px;
+    width: 50%}
+
+.im1 img ,.im2 img {width: 400px}
+
+
+.im2{float: right;
+    height: 400px;
+    padding: 20px;
+    width: 50%}
+
+.det2{
+    font-size: 20px;
+    color:#ceab9cf0}
+
+/* End Section 4 */
+
+
+/* Start Social */
+
+.social {float: right}
+
+.social  li button{
+    background-color:transparent;
+    border: 0;
+    color: blue;
+    font-size: 25px;
+    cursor: pointer;}
+
+.cop{
+    float: left;
+    color:#ceab9cf0; }
+
+/* End Social */
